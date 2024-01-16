@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Grant Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project allows Grant Funders to keep track of applicants and projects that they are funding.The project is aimed at centralizing data storage during grant application and monitoring and evaluation.
 
 ## Available Scripts
 
