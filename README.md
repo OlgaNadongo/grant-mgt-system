@@ -1,11 +1,11 @@
 # Grant Management System
 
 
-This project allows Grant Funders to keep track of applicants and projects that they are funding.The project is aimed at centralizing data storage during grant application and monitoring and evaluation.
+This project allows Grant Funders to keep track of applicants and projects that they are funding.The project is aimed at centralizing data storage during grant application and monitoring and evaluation. 
 
-## Available Scripts
+## Development Stage
 
-In the project directory, you can run:
+Created tables to diplay different projects undertaken by patners and the stage they are in. About to create forms to enable addition of partners.
 
 ### `npm start`
 
