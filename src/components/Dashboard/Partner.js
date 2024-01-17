@@ -4,12 +4,12 @@ import './Partner.css'
 
 const Partner = () => {
   return (
-    <div>Partner Project
-        <table>
+    <div className='tableWrapper'>Partner Project
+        <table className='table'>
             <thead>
                 <tr>
                     <th>Organization</th>
-                    <th>Project</th>
+                    <th className='expand'>Project</th>
                     <th>Status</th>
                     <th>Actions</th>
                 </tr>
@@ -17,14 +17,14 @@ const Partner = () => {
             <tbody>
                 <tr>
                     <td>KCDF</td>
-                    <td>Narok Beading Project</td>
+                    <td >Narok Beading Project to economically empower women in rural areas</td>
                     <td>
-                        <span>Live</span>
+                        <span className='label label-live'>Live</span>
                     </td>
                     {/* icons from react-icons */}
                     <td>
-                        <span>
-                            <FaTrashCan />
+                        <span className='actions'>
+                            <FaTrashCan className='delete-btn' />
                             <FaPencil />
                         </span>
                     </td>
@@ -32,15 +32,31 @@ const Partner = () => {
                 </tr>
 
                 <tr>
-                    <td>Home</td>
+                    <td>MEDA</td>
                     <td>Malindi Tree Planting Monitoring</td>
                     <td>
-                        <span>Live</span>
+                        <span className='label label-draft'>Draft</span>
                     </td>
                     {/* icons from react-icons */}
                     <td>
-                        <span>
-                            <FaTrashCan />
+                        <span className='actions'>
+                            <FaTrashCan className='delete-btn' />
+                            <FaPencil />
+                        </span>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>AROCHA</td>
+                    <td>Mangrove forests</td>
+                    <td>
+                        <span className='label label-done'>Done</span>
+                    </td>
+                    {/* icons from react-icons */}
+                    <td>
+                        <span className='actions'>
+                            <FaTrashCan className='delete-btn' />
                             <FaPencil />
                         </span>
                     </td>
