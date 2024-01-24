@@ -1,10 +1,17 @@
-import React from 'react'
+import React  from 'react'
 import { FaTrashCan,FaPencil } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 import './Partner.css'
 
 const Partner = () => {
   return (
     <div className='tableWrapper'>Partner Project
+
+     
+     <Link to='/partnerform'>
+         <button>Add Partner</button>
+     </Link>
+
         <table className='table'>
             <thead>
                 <tr>

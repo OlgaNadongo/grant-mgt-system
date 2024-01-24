@@ -5,6 +5,7 @@ import Login from './components/Login';
 import Home from './components/Home';
 import About from './components/About';
 import Partner from './components/Dashboard/Partner';
+import Partnerform from './components/Dashboard/Partnerform';
 
 
 const App=()=>{
@@ -13,6 +14,7 @@ const App=()=>{
       
         <Navbar/>
          <Routes>
+            <Route path='/partnerform' element={<Partnerform/>}/>
             <Route path='/' element={<Home/>}/> 
             <Route path='/about' element={<About/>}/>
             <Route path='/login' element={<Login/>}/> 
