@@ -1,0 +1,21 @@
+.formWrapper{
+    width:100%;
+
+    background-color: yellow;
+}
+
+.form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center;
+    margin:auto ;
+    width:60%;
+    background-color: blue;
+    border-radius: 0.5px;
+}
+
+.form label,
+.form input{
+    padding: 0.2rem;
+}

@@ -1,9 +1,10 @@
 import React from "react";
+import './Partnerform.css'
 
 function Partnerform(){
     return(
-        <div>
-            <form>
+        <div className='formWrapper'>
+            <form className='form'>
                <label>
                 Organization Name:
                 <input type='text'value='name'/>
@@ -14,7 +15,7 @@ function Partnerform(){
                   <input type='text' placeholder="project description"/>
                </label>
                <label>
-                 <input type='choice'/>
+                 <input type='submit'/>
                 </label> 
                
             </form>
