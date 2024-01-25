@@ -1,0 +1,22 @@
+{
+    "projectsadmin": [
+      {
+        "name": "JohnnyMay",
+        "project": "Narok School Sponsorship",
+        "status":"ongoing",
+        "id": 18
+      },
+      {
+        "name": "Maingo",
+        "project": "Karima Girls Mentorship",
+        "status":"Onhold",
+        "id": 19
+      },
+      {
+        "name": "mary",
+        "project": "Karura Tree Growing",
+        "status":"complete",
+        "id": 20
+      }
+    ]
+  }
