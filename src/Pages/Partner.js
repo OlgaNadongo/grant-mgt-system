@@ -1,16 +1,32 @@
 import React  from 'react'
 import { FaTrashCan,FaPencil } from "react-icons/fa6";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './Partner.css'
+import {useState,useEffect} from 'react'
 
-const Partner = () => {
+function Partner  (){
+  
+    const[projects,setProjects]=useState([])
+
+    useEffect(()=>{
+        fetch("src/data.json")
+        .then((r)=>r.json())
+        .then(data=>{
+            setProjects(data)
+        })
+        .catch((error)=>{
+            console.log(error)
+        })
+    },
+    [])
+
   return (
     <div className='tableWrapper'>Partner Project
 
      
-     <Link to='/partnerform'>
+     {/* <Link to='/partnerform'>
          <button>Add Partner</button>
-     </Link>
+     </Link> */}
 
         <table className='table'>
             <thead>

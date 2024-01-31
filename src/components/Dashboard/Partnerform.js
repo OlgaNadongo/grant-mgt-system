@@ -19,9 +19,9 @@ function Partnerform(){
 
     // submitting form components
 
-    function handleSubmit(){
-        e.preventdefault()
-    }
+    // function handleSubmit(){
+    //     e.preventdefault()
+    // }
     return(
         <div className='formWrapper'>
             <form className='form'>

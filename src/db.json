@@ -1,22 +1,24 @@
-{
-    "projectsadmin": [
-      {
+ { "projectmanagement":
+ [
+      { 
+        "id":1,
         "name": "JohnnyMay",
-        "project": "Narok School Sponsorship",
-        "status":"ongoing",
-        "id": 18
+        "projectname": "Narok School Sponsorship",
+        "status":"ongoing"
       },
       {
+        "id":2,
         "name": "Maingo",
-        "project": "Karima Girls Mentorship",
-        "status":"Onhold",
-        "id": 19
+        "projectname": "Karima Girls Mentorship",
+        "status":"Onhold"
+        
       },
       {
+        "id":3,
         "name": "mary",
-        "project": "Karura Tree Growing",
-        "status":"complete",
-        "id": 20
+        "projectname": "Karura Tree Growing",
+        "status":"complete"
+        
       }
     ]
-  }
+  } 

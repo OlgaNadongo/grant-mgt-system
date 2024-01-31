@@ -1,10 +1,10 @@
 import {Routes,Route} from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar';
-import Login from './components/Login';
-import Home from './components/Home';
-import About from './components/About';
-import Partner from './components/Dashboard/Partner';
+import Login from './Pages/Login';
+// import Home from './Pages/Home';
+import About from './Pages/About';
+import Partner from './Pages/Partner';
 import Partnerform from './components/Dashboard/Partnerform';
 
 
@@ -15,11 +15,12 @@ const App=()=>{
         <Navbar/>
          <Routes>
             <Route path='/partnerform' element={<Partnerform/>}/>
-            <Route path='/' element={<Home/>}/> 
-            <Route path='/about' element={<About/>}/>
+            {/* <Route path='/' element={<Home/>}/>  */}
+            <Route path='/' element={<About/>}/>
             <Route path='/login' element={<Login/>}/> 
+            <Route path='/partner' element={<Partner/>}/>
          </Routes>
-         <Partner/>
+         {/* <Partner/> */}
         
              
     </div>
